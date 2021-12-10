@@ -1,0 +1,79 @@
+#panel {
+    width: 808px;
+    height: 340px;
+    align-items: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    color: black
+}
+
+.card {
+    width: 60px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: gray 2px 2px;
+    float: left;
+    cursor: pointer;
+}
+/* 裏の状態 */
+.back {
+    background-image: url(../img__card/COVER.png) !important;
+    background-size: 60px 80px;
+}
+/* 終了時 */
+.finish {
+    opacity: 0.1;
+    cursor: default;
+}
+/* 経過秒数 */
+#result {
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 800px;
+    color: red;
+}
+/* タイトル */
+.Memory__game{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 800px;
+    color:blue;
+}
+body{
+      background-color:whitesmoke;
+    }
+    p#time{
+        font-size: 48pt;
+        padding-top: 0.5em;
+    }
+    button{
+        width:5em;
+        padding:5pt;
+        font-size: 20pt;
+        border:solid 1px #555;
+        border-radius: 12pt;
+    }
+    button:hover{
+        background-color: pink;
+    }
+    footer{
+        color: #ddd;
+        background-color: transparent;
+        text-align: right;
+    }
+    
